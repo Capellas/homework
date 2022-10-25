@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 
 .tabs-container {
@@ -12,10 +13,10 @@
 }
 
 .tabs-subcontainer {
-    font-family: "Open sans", sans-serif;
+    font-family: Open Sans, sans-serif;
     width: 1170px;
-    margin: calc(100vh /2 - 542.1px /2) auto;
-    /* border: 1px solid red; */
+    margin: calc(100vh / 2 - 542.1px / 2) auto;
+    /* box-sizing: content-box; */
 }
 
 .tabs-subcontainer .open-tab {
@@ -23,6 +24,7 @@
     width: 1170px;
     border-top: none;
     height: 500px;
+    box-sizing: content-box;
     /* дополнительно разобраться */
 }
 
