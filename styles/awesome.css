@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Raleway, sans-serif;
 }
 
 .awesome-container {
     font-family: Raleway, sans-serif;
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 }
 
