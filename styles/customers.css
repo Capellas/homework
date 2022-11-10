@@ -1,10 +1,10 @@
-
 .customers-container {
     width: 1170px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.customers-container__titile {
+.customers-container h2 {
     height: 150px;
     line-height: 150px;
     font-weight: 400;
@@ -14,13 +14,13 @@
     margin-top: 50px;
 }
 
-.separator {
+.customers-container-separator {
     border: 0.5px solid #ec7979;
     width: 170px;
     margin: 0 auto;
 }
 
-.customers-container__text {
+.customers-container__titile{
     height: 21px;
     line-height: 21px;
     font-weight: 400;
@@ -31,29 +31,32 @@
     margin-bottom: 83px;
 }
 
-.customers-container__articles {
+.customers-subcontainer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 
-.customers-info {
+.customers-subcontainer-speech {
     width: 370px;
     height: 180px;
     background: #e2e2e2;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
     align-items: center;
+
 }
 
-.customers-info h5 {
+.customers-subcontainer-speech h5 {
     height: 105px;
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
     color: #86878b;
+    text-align: center;
 }
 
-.polygon {
+.triangle {
     width: 0;
     height: 0;
     border-left: 15px solid transparent;
@@ -64,30 +67,35 @@
     margin-bottom: 46px;
 }
 
-.customers-name {
+.customers-subcontainer-info {
     display: flex;
 }
 
-.customers-name img {
+.customers-subcontainer-info img {
+    display: block;
     position: absolute;
 }
 
-.name {
-    font-size: 24px;
-    font-weight: 700;
-    height: 54px;
-    line-height: 54px;
-    font-family: Open Sans, sans-serif;
+.customers-subcontainer-position {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
     position: relative;
     left: 100px;
 }
 
-.position {
-    height: 21px;
-    line-height: 21px;
+.customers-subcontainer-position h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 54px;
+    height: 54px;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 15px;
+}
+
+.customers-subcontainer h5 {
+    /* height: 21px; */
     font-size: 18px;
     font-weight: 400;
-    position: relative;
-    left: 100px;
-    top: 15px;
+   
 }

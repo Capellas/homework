@@ -1,0 +1,50 @@
+
+.design-container {
+    background-image: url(images/background2.png);
+    width: 1510px;
+    height: 442px;
+}
+
+
+.design-container h2 {
+    font-size: 36px;
+    font-weight: 400;
+    height: 150px;
+    line-height: 150px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.design-container-separator {
+    border: 0.5px solid #FFF;
+    margin: 0 auto;
+    width: 170px;
+}
+
+.design-container h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    margin: 40px 0 73px 0;
+    height: 21px;
+}
+
+.design-container button {
+    width: 370px;
+    height: 58px;
+    border: 2px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: block;
+    font-family: Open sans, sans-serif;
+}
+.design-container-overlay{
+    width: 1510px;
+    height: 442px;
+    background: rgba(0, 0, 0, 0.5);
+}

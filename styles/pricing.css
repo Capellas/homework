@@ -1,11 +1,11 @@
-
 .pricing-container {
-	font-family: Raleway, sans-serif;
+	background: #f5f5f5;
 }
 
 .pricing-container__price-info {
 	width: 370px;
 	border: 2px solid #F5F5F5;
+	background: #FFF;
 }
 
 .pricing-container__price-info h4 {
@@ -59,6 +59,7 @@
 	align-self: flex-start;
 }
 
+
 .pricing-container h2 {
 	height: 150px;
 	line-height: 150px;
@@ -81,7 +82,3 @@
 	text-align: center;
 	margin: 40px 0 59px;
 }
-
-
-
-

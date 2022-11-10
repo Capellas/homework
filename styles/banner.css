@@ -1,0 +1,114 @@
+.banner-container {
+    background-image: url(images/background.png);
+    width: 1510px;
+    height: 951px;
+
+}
+
+.banner-subcontainer {
+    width: 670px;
+    height: 480px;
+}
+
+.banner-subcontainer h1 {
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-top: 72.88px;
+    height: 168px;
+}
+
+.banner-subcontainer-separator {
+    margin-top: 55px;
+    width: 170px;
+    border: 0.5px solid #FFF;
+}
+
+.banner-subcontainer h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+    margin: 42px 0;
+    height: 42px;
+    width: 270px;
+}
+
+.banner-subcontainer button {
+    width: 270px;
+    height: 58px;
+    background: none;
+    border: 2px solid #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    font-family: Open Sans, sans-serif;
+}
+
+.banner-subcontainer-right-side {
+    border-radius: 10px;
+    background: #FFF;
+    width: 470px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+.banner-subcontainer-right-side h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    height: 90px;
+    line-height: 90px;
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+}
+
+.banner-subcontainer-right-side h4 span {
+    color: #ec7979;
+}
+
+.banner-subcontainer-right-side form {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 12px 50px 75px 50px;
+}
+
+.banner-subcontainer-right-side input {
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    height: calc(33px + 19px + 16px);
+    width: 370px;
+}
+
+.banner-subcontainer-right-side input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+    font-family: Open Sans, sans-serif;
+}
+
+.banner-subcontainer-right-side button {
+    width: 470px;
+    height: 60px;
+    color: #FFF;
+    background: #ec7979;
+    margin-bottom: px;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Open Sans, sans-serif;
+}
+
+.banner-container-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 1510px;
+    height: 951px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
