@@ -72,3 +72,33 @@ article img {
 .awesome-container__keyboard {
     margin: 0 30px !important;
 }
+
+.link-first-type:hover {
+    background: #ec7979;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.link-first-type:active {
+    background: #AB4949;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.link-second-type:hover{
+    color: #ec7979;
+    border: 2px solid #ec7979;
+}
+.link-second-type:active{
+    background: #ab4949;
+    color: #fff;
+    border: none;
+}
+.link-third-type:hover{
+    background: #ab4949;
+}
+.link-third-type:active{
+    background: #ec7979;
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
