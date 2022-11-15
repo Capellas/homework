@@ -1,6 +1,6 @@
 
 .design-container {
-    background-image: url(images/background2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/background2.png);
     width: 1510px;
     height: 442px;
 }

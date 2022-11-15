@@ -102,3 +102,6 @@ article img {
     background: #ec7979;
     box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.4);
 }
+button{
+    cursor: pointer;
+}

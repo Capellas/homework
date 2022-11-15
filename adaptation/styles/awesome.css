@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: Raleway, sans-serif;
 }
-
+button{
+    cursor: pointer;
+}
 .awesome-container {
     font-family: Raleway, sans-serif;
     width: 1170px;
